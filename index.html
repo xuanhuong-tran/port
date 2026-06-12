@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <meta name="description" content="Personal portfolio website for a Business Analyst and Data Analyst." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <!-- Navigation Bar -->
+    <div class="container nav-wrapper">
+      <a class="brand" href="#home" aria-label="Go to home section">
+        <span class="brand-mark">BA</span>
+        <span class="brand-text">Tran Xuan Huong</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Welcome to my portfolio</p>
+          <h1>Business Analyst &amp; Data Analyst</h1>
+          <p class="job-title">Third‑year E‑Commerce student</p>
+          <p class="hero-text">
+            I combine analytical rigor with product-minded thinking to turn business questions
+            into clear, actionable insights. I specialise in requirements analysis, workflow
+            design and dashboarding using Excel, SQL and Python to support better decisions
+            and measurable operational improvements.
+          </p>
+          <!-- hero-stats removed to avoid duplication with About section -->
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="assets/Tran_Xuan_Huong_CV.pdf" download>Download CV</a>
+            <a class="btn btn-secondary" href="#projects">View Projects</a>
+          </div>
+        </div>
+
+        <div class="hero-image-card">
+          <img src="assets/images/IMG_6481.JPG" alt="Profile photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div class="about-content full-width">
+          <p class="section-label">About Me</p>
+          <h2>Professional Background</h2>
+          <p class="lead">
+            I am a third-year E‑Commerce student at the University of Economics and Law
+            (VNU‑HCM) with a strong interest in Business Analysis, Data Analytics, and Digital
+            Product Development. My experience spans business process analysis, AI-powered
+            workflow automation, customer experience analytics, and academic research. I enjoy
+            translating business requirements and complex datasets into practical solutions that
+            improve operations and support better decision-making.
+          </p>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Core Expertise</h3>
+              <ul>
+                <li>Requirement Analysis</li>
+                <li>Process Mapping</li>
+                <li>Workflow Design</li>
+              </ul>
+            </article>
+
+            <article class="feature-card">
+              <h3>Data Analytics</h3>
+              <ul>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>Dashboard Development</li>
+                <li>ETL Pipelines</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="skills-section">
+            <div class="skills-column">
+              <h4>Technical Foundation</h4>
+              <div class="chips">
+                <span class="chip">Business Analysis</span>
+                <span class="chip">SQL</span>
+                <span class="chip">Python</span>
+                <span class="chip">Excel</span>
+                <span class="chip">Figma</span>
+                <span class="chip">Jira</span>
+                <span class="chip">n8n</span>
+                <span class="chip">SAP S/4HANA</span>
+              </div>
+            </div>
+
+            <div class="skills-column">
+              <h4>Professional Skills</h4>
+              <div class="chips">
+                <span class="chip">Stakeholder Collaboration</span>
+                <span class="chip">Problem Solving</span>
+                <span class="chip">Communication</span>
+                <span class="chip">Presentation</span>
+                <span class="chip">Leadership</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <p class="section-label">Skills</p>
+        <h2>Core Competencies</h2>
+        <div class="skills-grid">
+          <article class="skill-card">Business Analysis</article>
+          <article class="skill-card">SQL</article>
+          <article class="skill-card">Power BI</article>
+          <article class="skill-card">Python</article>
+          <article class="skill-card">Java</article>
+          <article class="skill-card">HTML/CSS</article>
+          <article class="skill-card">Figma</article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <p class="section-label">Projects</p>
+        <h2>Project Overview</h2>
+        <p class="section-description">
+          A concise overview of four core academic projects. Each project page includes the role,
+          methodology, tools, and measurable outcomes in more detail.
+        </p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="assets/images/project-airport-cover.svg" alt="Airport analytics cover image" />
+            <div class="project-card-body">
+              <h3>Customer Experience Analytics for Tan Son Nhat Airport</h3>
+              <p>End-to-end customer feedback analytics using ETL, sentiment analysis, and dashboarding.</p>
+              <div class="tag-list">
+                <span>Python</span>
+                <span>MongoDB</span>
+                <span>AI / NLP</span>
+              </div>
+              <a class="btn btn-text" href="project-airport-analytics.html">View Details</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project-lost-found-cover.svg" alt="Lost and found cover image" />
+            <div class="project-card-body">
+              <h3>Lost &amp; Found Management System</h3>
+              <p>Fullstack platform connecting lost-item owners and finders with matching and moderation logic.</p>
+              <div class="tag-list">
+                <span>NestJS</span>
+                <span>Angular</span>
+                <span>MongoDB</span>
+              </div>
+              <a class="btn btn-text" href="project-lost-found.html">View Details</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project-vietjet-cover.svg" alt="Vietjet support cover image" />
+            <div class="project-card-body">
+              <h3>Vietjet Enhancement – Smart Chatbot &amp; Delay Voucher</h3>
+              <p>Business analysis and system design for chatbot support and automated delay compensation.</p>
+              <div class="tag-list">
+                <span>Business Analysis</span>
+                <span>UML</span>
+                <span>Figma</span>
+              </div>
+              <a class="btn btn-text" href="project-vietjet-chatbot.html">View Details</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project-triply-cover.svg" alt="Triply travel cover image" />
+            <div class="project-card-body">
+              <h3>Triply – Online Travel Booking Platform</h3>
+              <p>Business analysis and frontend development for a B2C travel booking experience.</p>
+              <div class="tag-list">
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>Figma</span>
+              </div>
+              <a class="btn btn-text" href="project-triply.html">View Details</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <p class="section-label">Experience</p>
+        <h2>Education & Work Timeline</h2>
+        <div class="timeline-grid">
+          <div class="timeline-card">
+            <h3>Education</h3>
+            <div class="education-card">
+              <div class="education-entry">
+                <div class="edu-logo">
+                  <img src="assets/images/uel.png" alt="University of Economics and Law logo" />
+                </div>
+                <div class="edu-body">
+                  <strong class="edu-title">University of Economics and Law</strong>
+                  <div class="edu-subtitle">E-Commerce / Electronic Commerce</div>
+                  <div class="edu-dates">Aug 2023 &ndash; Aug 2027</div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="education-entry">
+                <div class="edu-logo small">
+                  <img src="assets/images/nqd.jpeg" alt="Nguyen Quang Dieu High School" />
+                </div>
+                <div class="edu-body">
+                  <strong class="edu-title">Nguyen Quang Dieu High School for the Gifted</strong>
+                  <div class="edu-subtitle">English</div>
+                  <div class="edu-dates">Aug 2020 &ndash; Aug 2023</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <h3>Internship / Work Experience</h3>
+            <ul class="timeline">
+              <li>
+                <span class="timeline-date">2024 - Present</span>
+                <strong>Research Associate — Business Analytics &amp; Artificial Intelligence Laboratory</strong>
+                <p>University of Economics and Law</p>
+                <ul>
+                  <li>Developed a multi-AI agent system to automate article crawling and data processing, translating the analytical outputs into commercial-oriented dashboards for business decision-making, which resulted in a co-authored paper accepted at the Asia Pacific Management Conference (APMC).</li>
+                  <li>Designed a multidimensional evaluation framework by processing Kaggle datasets and training predictive models to simultaneously assess user credit rankings and institutional bank reputations, enabling robust and data-driven financial evaluation.</li>
+                  <li>Implemented an automated dynamic survey workflow on the n8n platform to evaluate participant perceptions, successfully engaging over 200 users and generating data-driven insights into how different virtual idol representations uniquely impact human perception, with findings published at the IEEE Symposium on Computers Informatics (ISCI).</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section section-alt">
+      <div class="container">
+        <p class="section-label">Certifications</p>
+        <h2>Professional Credentials</h2>
+        <div class="certifications-grid">
+          <article class="cert-card">
+            <h3>Data Analytics Certificate</h3>
+            <p>Certification Provider</p>
+          </article>
+          <article class="cert-card">
+            <h3>Business Analysis Fundamentals</h3>
+            <p>Certification Provider</p>
+          </article>
+          <article class="cert-card">
+            <h3>Power BI Essentials</h3>
+            <p>Certification Provider</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-layout">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Let’s Connect</h2>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> yourname@email.com</li>
+            <li><strong>Phone:</strong> +1 234 567 890</li>
+            <li><strong>LinkedIn:</strong> linkedin.com/in/yourname</li>
+            <li><strong>GitHub:</strong> github.com/yourname</li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <label>
+            Full Name
+            <input type="text" name="name" placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Your email" />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Your message"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Tran Xuan Huong. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#contact">LinkedIn</a>
+        <a href="#contact">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
