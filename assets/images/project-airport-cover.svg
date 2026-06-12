@@ -1,0 +1,73 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF2FF"/>
+      <stop offset="1" stop-color="#DDE3FF"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="836" y1="150" x2="1460" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="sh" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#3730A3" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="56" fill="url(#bg)"/>
+  <circle cx="1378" cy="150" r="150" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="205" cy="775" r="175" fill="#FFFFFF" fill-opacity="0.38"/>
+  <circle cx="700" cy="820" r="90" fill="#C7D2FE" fill-opacity="0.45"/>
+
+  <!-- eyebrow -->
+  <rect x="120" y="146" width="356" height="58" rx="29" fill="#FFFFFF" fill-opacity="0.75"/>
+  <circle cx="158" cy="175" r="11" fill="#4F46E5"/>
+  <text x="188" y="185" fill="#4338CA" font-size="27" font-family="Inter, Arial, sans-serif" font-weight="700">DATA ANALYTICS &amp; AI</text>
+
+  <!-- title -->
+  <text x="116" y="360" fill="#0F172A" font-size="94" font-family="Poppins, Inter, Arial, sans-serif" font-weight="800">Airport</text>
+  <text x="116" y="458" fill="url(#acc)" font-size="94" font-family="Poppins, Inter, Arial, sans-serif" font-weight="800">Analytics</text>
+  <text x="120" y="528" fill="#475569" font-size="33" font-family="Inter, Arial, sans-serif">Sentiment · ETL pipeline · dashboard intelligence</text>
+
+  <!-- KPI chips -->
+  <g filter="url(#sh)">
+    <rect x="120" y="588" width="300" height="124" rx="26" fill="#FFFFFF"/>
+    <rect x="444" y="588" width="300" height="124" rx="26" fill="#FFFFFF"/>
+  </g>
+  <text x="150" y="652" fill="#4338CA" font-size="48" font-family="Poppins, Inter, sans-serif" font-weight="800">8,300+</text>
+  <text x="150" y="694" fill="#64748B" font-size="26" font-family="Inter, sans-serif">reviews processed</text>
+  <text x="474" y="652" fill="#4338CA" font-size="48" font-family="Poppins, Inter, sans-serif" font-weight="800">82%</text>
+  <text x="474" y="694" fill="#64748B" font-size="26" font-family="Inter, sans-serif">model accuracy</text>
+
+  <!-- dashboard panel -->
+  <g filter="url(#sh)">
+    <rect x="836" y="150" width="624" height="600" rx="38" fill="#FFFFFF"/>
+  </g>
+  <path d="M836 188a38 38 0 0 1 38-38h548a38 38 0 0 1 38 38v46H836z" fill="#EEF2FF"/>
+  <circle cx="886" cy="192" r="13" fill="#4F46E5"/>
+  <rect x="916" y="180" width="230" height="24" rx="12" fill="#C7D2FE"/>
+  <rect x="1318" y="180" width="100" height="24" rx="12" fill="#E0E7FF"/>
+
+  <!-- donut sentiment -->
+  <circle cx="982" cy="382" r="80" fill="none" stroke="#E0E7FF" stroke-width="32"/>
+  <circle cx="982" cy="382" r="80" fill="none" stroke="url(#acc)" stroke-width="32" stroke-linecap="round"
+          stroke-dasharray="352 151" transform="rotate(-90 982 382)"/>
+  <text x="982" y="396" fill="#4338CA" font-size="46" font-family="Poppins, Inter, sans-serif" font-weight="800" text-anchor="middle">70%</text>
+
+  <!-- legend -->
+  <rect x="1118" y="320" width="22" height="22" rx="7" fill="#4F46E5"/>
+  <rect x="1118" y="364" width="22" height="22" rx="7" fill="#06B6D4"/>
+  <rect x="1118" y="408" width="22" height="22" rx="7" fill="#C7D2FE"/>
+  <rect x="1156" y="323" width="190" height="16" rx="8" fill="#E2E8F0"/>
+  <rect x="1156" y="367" width="158" height="16" rx="8" fill="#E2E8F0"/>
+  <rect x="1156" y="411" width="124" height="16" rx="8" fill="#E2E8F0"/>
+
+  <!-- bar chart -->
+  <line x1="884" y1="690" x2="1412" y2="690" stroke="#E2E8F0" stroke-width="3"/>
+  <rect x="902" y="640" width="46" height="48" rx="11" fill="#C7D2FE"/>
+  <rect x="972" y="598" width="46" height="90" rx="11" fill="#A5B4FC"/>
+  <rect x="1042" y="556" width="46" height="132" rx="11" fill="#6366F1"/>
+  <rect x="1112" y="600" width="46" height="88" rx="11" fill="#818CF8"/>
+  <rect x="1182" y="536" width="46" height="152" rx="11" fill="url(#acc)"/>
+  <rect x="1252" y="582" width="46" height="106" rx="11" fill="#38BDF8"/>
+  <rect x="1322" y="624" width="46" height="64" rx="11" fill="#7DD3FC"/>
+</svg>

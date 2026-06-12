@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Project image placeholder">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#17324d"/>
+      <stop offset="100%" stop-color="#4f7cac"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" rx="36" fill="#e9f0f8"/>
+  <rect x="72" y="70" width="1056" height="610" rx="28" fill="#ffffff" opacity="0.8"/>
+  <rect x="120" y="130" width="320" height="30" rx="15" fill="#c7d8ea"/>
+  <rect x="120" y="190" width="560" height="18" rx="9" fill="#dbe7f3"/>
+  <rect x="120" y="225" width="480" height="18" rx="9" fill="#dbe7f3"/>
+  <rect x="120" y="300" width="960" height="280" rx="22" fill="url(#g2)" opacity="0.14"/>
+  <path d="M210 540l160-140 150 92 190-168 170 116 140-92" fill="none" stroke="#17324d" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <circle cx="210" cy="540" r="16" fill="#17324d"/>
+  <circle cx="370" cy="400" r="16" fill="#17324d"/>
+  <circle cx="520" cy="492" r="16" fill="#17324d"/>
+  <circle cx="710" cy="324" r="16" fill="#17324d"/>
+  <circle cx="880" cy="440" r="16" fill="#17324d"/>
+  <circle cx="1020" cy="348" r="16" fill="#17324d"/>
+  <text x="600" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#17324d" font-weight="700">Project Preview</text>
+</svg>

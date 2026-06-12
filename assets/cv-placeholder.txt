@@ -1,0 +1,147 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{ragged2e}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Tran Xuan Huong}} & Email: huongtx23411@st.uel.edu.vn \\
+  Ho Chi Minh City & Mobile: +84 819467039 \\
+  Linkedin: linkedin.com/in/huong-xuan-tran/ & \\
+\end{tabular*}
+
+\section{Profile}
+\justifying{Third-year E-Commerce student with a strong interest in Business Analysis, data analytics, and digital product development. Experienced in requirement analysis, process improvement, workflow design, and customer insight analysis through academic and project-based work. Proficient in Excel, SQL, Python, and data visualization, with the ability to translate data into actionable business insights and operational recommendations. A proactive and fast-learning individual with strong analytical thinking, eager to contribute and grow in dynamic and collaborative environments.}
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {University of Economics and Law -- VNU HCMC}{Sep 2023 -- Jul 2027}
+  {E-Commerce -- Honors Program, GPA 8.75/10}{}
+
+\textbf{Courses:} Data Analysis, Database Management, Business Information System,
+Information System Analysis and Design, Statistics in Business, Digital Marketing Analysis, Marketing Technology
+
+\resumeSubHeadingListEnd
+
+\section{Skills Summary}
+\resumeSubHeadingListStart
+\resumeSubItem{Technical Skills}{Microsoft Office, n8n, SQL, Trello, Data Management, Python, SPSS, HTML, SAP S/4HANA, Jira, Figma, Adobe Photoshop}
+\resumeSubItem{Soft Skills}{Teamwork, Presentation, Time Management, Communication}
+\resumeSubItem{Languages}{English, Vietnamese}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Business Analytics \& Artificial Intelligence Laboratory - University of Economics and Law}{}
+  {Research Associate}{}
+\resumeItemListStart
+  \resumeItem{}{Developed a multi-AI agent system to automate article crawling and data processing, translating the analytical outputs into commercial-oriented dashboards for business decision-making, which resulted in a co-authored paper accepted at the Asia Pacific Management Conference (APMC).}
+  \resumeItem{}{Designed a multidimensional evaluation framework by processing Kaggle datasets and training predictive models to simultaneously assess user credit rankings and institutional bank reputations, enabling robust and data-driven financial evaluation.}
+  \resumeItem{}{Implemented an automated dynamic survey workflow on the n8n platform to evaluate participant perceptions, successfully engaging over 200 users and generating data-driven insights into how different virtual idol representations uniquely impact human perception, with findings published at the IEEE Symposium on Computers \& Informatics (ISCI).}
+\resumeItemListEnd
+
+\resumeSubheading
+  {VietJet Website Enhancement -- Smart Chatbot System}{}
+  {Project Leader | Final Project -- Information System Analysis and Design}{}
+\resumeItemListStart
+  \resumeItem{}{Analyzed customer service workflows to identify key operational bottlenecks, specifically focusing on manual flight delay handling and limited chatbot contextual awareness, and proposed an automated solution driven by artificial intelligence to enhance overall customer satisfaction.}
+  \resumeItem{}{Conducted comprehensive business and systems analysis by developing detailed process maps including BPMN and Context Use Case diagrams, alongside sitemaps and database architectures, ensuring all automated functionalities aligned with strategic business requirements.}
+  \resumeItem{}{Designed interactive user interface mockups using Figma to visualize system data flows and user navigation paths, facilitating clear stakeholder alignment and ensuring a seamless digital experience for the final product.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Customer Experience Analytics for Tan Son Nhat International Airport}{}
+  {Project Leader | Final Project -- Web Data Analytics Course}{}
+\resumeItemListStart
+  \resumeItem{}{Developed an end-to-end customer feedback analytics pipeline using ETL workflows, multilingual sentiment analysis, and aspect extraction to support service quality monitoring and data-driven operational decision-making for Tan Son Nhat International Airport.}
+  \resumeItem{}{Conducted analysis on over 8,000 Google Maps reviews by designing automated data collection, preprocessing, and dashboard reporting workflows, enabling the identification of operational bottlenecks related to facilities, processes, and staff services.}
+  \resumeItem{}{Collaborated with team members to build a dashboard visualization system integrating KPI tracking, drill-down reporting, and actionable insights, helping translate unstructured customer feedback into recommendations for airport service improvement.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Awards and Honors}
+\resumeSubHeadingListStart
+\resumeSubItem{Second Prize -- National Student Scientific Research Competition}{Ministry of Education and Training, 2025}
+\resumeSubItem{Second Prize -- UEL Young Scientific Researcher Award}{University of Economics and Law (VNU-HCM), 2025}
+\resumeSubItem{``Five-Good Student'' Honor}{Vietnam National University, Ho Chi Minh City, 2024--2025}
+\resumeSubItem{Mitsubishi UFJ Scholarship for Academic Excellence}{2025}
+\resumeSubItem{Merit-based Academic Excellence Scholarship (Top Student of Class)}{2023--2025}
+\resumeSubHeadingListEnd
+
+\end{document}

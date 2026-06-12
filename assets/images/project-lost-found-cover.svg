@@ -1,0 +1,89 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FFE7CC"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="836" y1="150" x2="1460" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <filter id="sh" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#9A3412" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="56" fill="url(#bg)"/>
+  <circle cx="1378" cy="150" r="150" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="205" cy="775" r="175" fill="#FFFFFF" fill-opacity="0.4"/>
+  <circle cx="720" cy="824" r="90" fill="#FED7AA" fill-opacity="0.55"/>
+
+  <!-- eyebrow -->
+  <rect x="120" y="146" width="438" height="58" rx="29" fill="#FFFFFF" fill-opacity="0.78"/>
+  <circle cx="158" cy="175" r="11" fill="#EA580C"/>
+  <text x="188" y="185" fill="#C2410C" font-size="27" font-family="Inter, Arial, sans-serif" font-weight="700">FULLSTACK WEB DEVELOPMENT</text>
+
+  <!-- title -->
+  <text x="116" y="360" fill="#0F172A" font-size="94" font-family="Poppins, Inter, Arial, sans-serif" font-weight="800">Lost &amp; Found</text>
+  <text x="116" y="458" fill="url(#acc)" font-size="82" font-family="Poppins, Inter, Arial, sans-serif" font-weight="800">Management</text>
+  <text x="120" y="526" fill="#7C5237" font-size="33" font-family="Inter, Arial, sans-serif">Smart matching · secure QR handover</text>
+
+  <!-- feature chips -->
+  <g filter="url(#sh)">
+    <rect x="120" y="588" width="300" height="124" rx="26" fill="#FFFFFF"/>
+    <rect x="444" y="588" width="300" height="124" rx="26" fill="#FFFFFF"/>
+  </g>
+  <text x="150" y="652" fill="#C2410C" font-size="44" font-family="Poppins, Inter, sans-serif" font-weight="800">Matching</text>
+  <text x="150" y="694" fill="#94785F" font-size="26" font-family="Inter, sans-serif">weighted scoring</text>
+  <text x="474" y="652" fill="#C2410C" font-size="44" font-family="Poppins, Inter, sans-serif" font-weight="800">QR Verify</text>
+  <text x="474" y="694" fill="#94785F" font-size="26" font-family="Inter, sans-serif">two-way token</text>
+
+  <!-- map panel -->
+  <g filter="url(#sh)">
+    <rect x="836" y="150" width="624" height="400" rx="38" fill="#FFFFFF"/>
+  </g>
+  <clipPath id="mapclip"><rect x="836" y="150" width="624" height="400" rx="38"/></clipPath>
+  <g clip-path="url(#mapclip)">
+    <rect x="836" y="150" width="624" height="400" fill="#FFFBF5"/>
+    <path d="M860 250H1440" stroke="#FDE3C4" stroke-width="16" stroke-linecap="round"/>
+    <path d="M1040 170V540" stroke="#FDE3C4" stroke-width="16" stroke-linecap="round"/>
+    <path d="M860 430H1440" stroke="#FDE3C4" stroke-width="16" stroke-linecap="round"/>
+    <path d="M1260 170V540" stroke="#FDE3C4" stroke-width="16" stroke-linecap="round"/>
+    <rect x="884" y="276" width="120" height="120" rx="14" fill="#FEF3E2"/>
+    <rect x="1300" y="456" width="110" height="70" rx="14" fill="#FEF3E2"/>
+    <!-- connection between the two pins -->
+    <path d="M960 300C1070 360 1180 360 1300 432" stroke="#EA580C" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 22"/>
+  </g>
+  <!-- pin A (lost) -->
+  <g transform="translate(960,300)" filter="url(#sh)">
+    <path d="M0 -10C30 -10 52 14 52 44C52 80 0 122 0 122C0 122 -52 80 -52 44C-52 14 -30 -10 0 -10Z" fill="#F59E0B"/>
+    <circle cx="0" cy="42" r="19" fill="#FFF7ED"/>
+  </g>
+  <!-- pin B (found) -->
+  <g transform="translate(1300,432)" filter="url(#sh)">
+    <path d="M0 -8C24 -8 42 11 42 35C42 64 0 98 0 98C0 98 -42 64 -42 35C-42 11 -24 -8 0 -8Z" fill="#EA580C"/>
+    <circle cx="0" cy="34" r="15" fill="#FFF7ED"/>
+  </g>
+
+  <!-- QR card -->
+  <g filter="url(#sh)">
+    <rect x="1170" y="566" width="290" height="184" rx="28" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(1198,592)" fill="#1F2937">
+    <!-- finder squares -->
+    <rect x="0" y="0" width="40" height="40" rx="6" fill="none" stroke="#1F2937" stroke-width="9"/>
+    <rect x="92" y="0" width="40" height="40" rx="6" fill="none" stroke="#1F2937" stroke-width="9"/>
+    <rect x="0" y="92" width="40" height="40" rx="6" fill="none" stroke="#1F2937" stroke-width="9"/>
+    <!-- scattered modules -->
+    <rect x="58" y="10" width="14" height="14"/>
+    <rect x="58" y="34" width="14" height="14"/>
+    <rect x="104" y="58" width="14" height="14"/>
+    <rect x="58" y="104" width="14" height="14"/>
+    <rect x="80" y="104" width="14" height="14"/>
+    <rect x="104" y="104" width="14" height="14" fill="#EA580C"/>
+    <rect x="104" y="126" width="14" height="14"/>
+    <rect x="12" y="58" width="14" height="14"/>
+  </g>
+  <text x="1356" y="640" fill="#C2410C" font-size="26" font-family="Poppins, Inter, sans-serif" font-weight="800">Secure</text>
+  <text x="1356" y="676" fill="#C2410C" font-size="26" font-family="Poppins, Inter, sans-serif" font-weight="800">handover</text>
+</svg>

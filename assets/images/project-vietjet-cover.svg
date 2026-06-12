@@ -1,0 +1,69 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1F2"/>
+      <stop offset="1" stop-color="#FFE0E3"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="836" y1="150" x2="1460" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F43F5E"/>
+      <stop offset="1" stop-color="#E11D48"/>
+    </linearGradient>
+    <filter id="sh" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#9F1239" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="56" fill="url(#bg)"/>
+  <circle cx="1378" cy="150" r="150" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="205" cy="775" r="175" fill="#FFFFFF" fill-opacity="0.4"/>
+  <circle cx="720" cy="824" r="90" fill="#FECDD3" fill-opacity="0.55"/>
+
+  <!-- eyebrow -->
+  <rect x="120" y="146" width="330" height="58" rx="29" fill="#FFFFFF" fill-opacity="0.78"/>
+  <circle cx="158" cy="175" r="11" fill="#E11D48"/>
+  <text x="188" y="185" fill="#BE123C" font-size="27" font-family="Inter, Arial, sans-serif" font-weight="700">BUSINESS ANALYSIS</text>
+
+  <!-- title -->
+  <text x="116" y="360" fill="#0F172A" font-size="94" font-family="Poppins, Inter, Arial, sans-serif" font-weight="800">Smart Chatbot</text>
+  <text x="116" y="458" fill="url(#acc)" font-size="80" font-family="Poppins, Inter, Arial, sans-serif" font-weight="800">&amp; Delay Voucher</text>
+  <text x="120" y="526" fill="#9F5A66" font-size="33" font-family="Inter, Arial, sans-serif">Multilingual support · automated compensation</text>
+
+  <!-- feature chips -->
+  <g filter="url(#sh)">
+    <rect x="120" y="588" width="300" height="124" rx="26" fill="#FFFFFF"/>
+    <rect x="444" y="588" width="300" height="124" rx="26" fill="#FFFFFF"/>
+  </g>
+  <text x="150" y="652" fill="#BE123C" font-size="44" font-family="Poppins, Inter, sans-serif" font-weight="800">Chatbot</text>
+  <text x="150" y="694" fill="#A4747C" font-size="26" font-family="Inter, sans-serif">self-service support</text>
+  <text x="474" y="652" fill="#BE123C" font-size="44" font-family="Poppins, Inter, sans-serif" font-weight="800">Auto-voucher</text>
+  <text x="474" y="694" fill="#A4747C" font-size="26" font-family="Inter, sans-serif">faster refunds</text>
+
+  <!-- chat panel -->
+  <g filter="url(#sh)">
+    <rect x="836" y="150" width="624" height="392" rx="38" fill="#FFFFFF"/>
+  </g>
+  <path d="M836 188a38 38 0 0 1 38-38h548a38 38 0 0 1 38 38v44H836z" fill="#FFF1F2"/>
+  <circle cx="886" cy="190" r="16" fill="#F43F5E"/>
+  <rect x="916" y="180" width="180" height="22" rx="11" fill="#FECDD3"/>
+
+  <!-- incoming bubble -->
+  <rect x="880" y="268" width="320" height="64" rx="22" fill="#FCE7EA"/>
+  <rect x="908" y="290" width="220" height="14" rx="7" fill="#F9A8B4"/>
+  <!-- outgoing bubble (accent) -->
+  <rect x="1096" y="352" width="320" height="64" rx="22" fill="url(#acc)"/>
+  <rect x="1124" y="374" width="240" height="14" rx="7" fill="#FFFFFF" fill-opacity="0.85"/>
+  <!-- incoming bubble + typing dots -->
+  <rect x="880" y="436" width="220" height="64" rx="22" fill="#FCE7EA"/>
+  <circle cx="924" cy="468" r="9" fill="#F43F5E"/>
+  <circle cx="956" cy="468" r="9" fill="#FB7185"/>
+  <circle cx="988" cy="468" r="9" fill="#FDA4AF"/>
+
+  <!-- voucher ticket -->
+  <g filter="url(#sh)">
+    <path d="M866 580h564a18 18 0 0 1 18 18v36a26 26 0 0 0 0 52v36a18 18 0 0 1-18 18H866a18 18 0 0 1-18-18v-36a26 26 0 0 0 0-52v-36a18 18 0 0 1 18-18Z" fill="#FFFFFF"/>
+  </g>
+  <line x1="1180" y1="600" x2="1180" y2="720" stroke="#FECDD3" stroke-width="4" stroke-dasharray="6 12"/>
+  <text x="892" y="650" fill="#BE123C" font-size="30" font-family="Poppins, Inter, sans-serif" font-weight="800" letter-spacing="3">DELAY VOUCHER</text>
+  <text x="892" y="700" fill="#9F5A66" font-size="24" font-family="Inter, sans-serif">Issued automatically</text>
+  <text x="1224" y="678" fill="url(#acc)" font-size="64" font-family="Poppins, Inter, sans-serif" font-weight="800">VND</text>
+</svg>
